@@ -1,0 +1,43 @@
+{
+    "name": "grunt-p4bump",
+    "description": "edit, bump n save, submit",
+    "version": "0.0.1",
+    "homepage": "",
+    "author": {
+        "name": "Carlos Ruiz",
+        "email": "cruiz@edmunds.com"
+    },
+    "contributors": [
+        "Carlos Ruiz <cruiz@edmunds.com>"
+    ],
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "main": "tasks/p4bump.js",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "q": "~1.0"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4"
+    },
+    "devDependencies": {
+        "grunt": "~0.4",
+        "grunt-npm": "~0.0.1",
+        "grunt-auto-release": "~0.0.3"
+    },
+    "keywords": [
+        "gruntplugin",
+        "p4"
+    ]
+}
